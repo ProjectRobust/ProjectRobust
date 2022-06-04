@@ -17,7 +17,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
 
-
+<!--Chrome Firefox Opera-->
+<meta name="theme-color" content="#000000">
+<!--Windows Phones-->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!--Safari/ios-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 <style>
     h2 {
@@ -258,10 +264,101 @@
     </div>
     <!-- End OF Features -->
 
+     <!-- Download Page -->
+     <div class="page-section">
+        <div class="container">
+          <div id="downloads" class="row justify-content-center text-center wow animate__animated animate__fadeInUp">
+            <div class="col-lg-6">
+              <h2 class="mb-3 text-white">Like what you saw ?</h2>
+              <p class="mb-5">Great! Head to our downloads page, grab a zip file for your desired device and you should be all set. Happy flashing !</p>
+              <a href="downloads.html" target="_blank" class="btn custom-button-green">Download Now</a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2 class="mb-3 justify-content-center text-center wow animate__animated animate__fadeInUp text-white">Don’t saw
+            your device on the list ?</h2>
+          <div class="pricing-table mt-5 wow animate__animated animate__fadeInUp">
+            <div class="pricing-item active no-transform" style="background-color: #191c25;">
+              <div class="pricing-body">
+                <p class="text-center">Wait A Minute , Who Are You ?</p>
+                <p class="text-center">
+                  <button class="btn custom-button-green" style="width: 130px;" type="button" data-toggle="collapse"
+                    data-target="#for_user" aria-expanded="false" aria-controls="for_user">
+                    User
+                  </button>
+                </p>
+                <div class="collapse" id="for_user">
+                  <div class="card card-body" style="background-color: #2b2d2e; border-radius: 20px; color:white">
+                    <p class="fs-small">Don’t worry, we’re supporting more and more devices as we grow, so there
+                      is a chance that in the near future, we’ll support yours too!</p>
+                    <p class="fs-small">Some developers also build RobustOS unofficially, so you can search your device’s xdapage for one and try it out.
+                    We’re not responsible for any bugs you encounter in those builds though.
+                    </p>
+                  </div>
+                </div>
+                <p class="text-center">
+                  <button class="btn custom-button-green" style="width: 130px; " data-toggle="collapse" href="#for_developer"
+                    role="button" aria-expanded="false" aria-controls="for_developer">
+                    Developer
+                  </button>
+                  </p>
+                <div class="collapse" id="for_developer">
+                  <div class="card card-body" style="background-color: #2b2d2e; border-radius: 20px; color:white">
+                    <p class="fs-small">So you think you have the guts to roast some build by yourself? Great! RobustOS is entirely open source, 
+                    so head out to our GitHub page for instructions and get right to it!</p>
+                    <button class="btn custom-button-green" onclick="document.location='https://github.com/ProjectRobust/RobustWebsite'">Github</button>
+                    <hr>
+                    <p class="fs-small">Or have you been building RobustOS unofficially for some time now and want to become a maintainer ?
+                      Fill out this form and we’ll see what we can do! </p>
+                    <button class="btn custom-button-green disabled">Currently not accepting</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <!-- End Of Download Page -->
     
+      <!-- Support -->
+  <div class="page-section no-scroll" id="support">
+    <div class="container">
+      <h2 class="text-center wow animate__animated animate__fadeIn text-white">Need some help ?</h2>
+      <div class="col-md-6 col-lg-4 py-3 mx-auto">
+        <div class="card card-body text-center  pt-5 custom-card-shadow wow animate__animated animate__zoomIn"
+          style="background-color: #212324; border-radius: 20px;">
+          <div class="svg-icon mx-auto mb-4">
+            <img src="assets/img/icons/telegram.png" alt="">
+          </div>
+          <h5 class="fg-white ">Telegram</h5>
+          <p class="fs-small ">You can contact me on my telegram account.</p>
+          <a href="https://t.me/robustoschat" target="_blank">
+            <button class="btn btn-primary rounded-pill">Ask Now</button>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- End OF Support -->
 
- 
+  <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+
+  <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+
+  <script src="libs/particles/particles.js"></script>
+  <script src="libs/particles/app.js"></script>
+
+
+  <script src="libs/wow/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
   <script src="assets/js/main.js"></script>
 
